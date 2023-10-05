@@ -89,7 +89,7 @@ pipeline {
        
     }
 
-    stage('Deploy to production') { //production deployment stage
+    stage('Deploy to production') { //production  stage
              
              steps{
                  echo "Deploying to production environment: ${PRODUCTION_ENVIRONMENT}"
